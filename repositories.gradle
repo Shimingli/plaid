@@ -61,7 +61,8 @@ repositories {
     }
 
     maven {
-        url 'https://maven.fabric.io/public'
+//        url 'https://maven.fabric.io/public'
+        url 'http://s3.amazonaws.com/fabric-artifacts/public'
         content {
             includeGroupByRegex "io\\.fabric.*"
             includeGroupByRegex "com\\.crashlytics.*"
